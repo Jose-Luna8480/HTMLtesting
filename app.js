@@ -1,6 +1,3 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-
 var firebaseConfig = {
   apiKey: "AIzaSyCmq8KmqolW85TCnZA674l5F830X4ToMD0",
   authDomain: "pruebafirebasehtml.firebaseapp.com",
