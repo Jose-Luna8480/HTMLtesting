@@ -8,7 +8,7 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-var firestore = firebase.storage();
+var firestore = firebase.firestore();
 
 const docRef = firestore.doc("samples/sandwichData");
 const outputHeader = document.querySelector("#hotDogOutput");
