@@ -8,9 +8,9 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-var firestore = firebase.firestore();
+var firestore = firebase.storage();
 
-const docRef = firestore.collection("samples/sandwichData");
+const docRef = firestore.doc("samples/sandwichData");
 const outputHeader = document.querySelector("#hotDogOutput");
 const inputTextField = document.querySelector("#latestHotDogStatus");
 const saveButton = document.querySelector("#saveButton");
